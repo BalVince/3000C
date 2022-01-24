@@ -3,4 +3,4 @@ def atlag_negyzet(lista):
     for elem in lista:
         sum += elem
     sum = sum / len(lista)
-    print(round(sum**2, 2))
+    return(round(sum**2, 2))
