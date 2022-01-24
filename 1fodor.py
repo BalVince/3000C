@@ -6,3 +6,4 @@ def van_e_pozitiv(lista):
         return False
     else:
         return True
+#kesz
