@@ -22,45 +22,45 @@ Minden feladat előtt a program írja ki a feladat sorszámát!
 lista = []
 with open("3000C_input.txt", "r", encoding="utf8") as f:
     for sor in f:
-        lista.append(sor)
+        lista.append(int(sor))
 
 # 1. feladat
-print("1. Van-e a sorozatban pozitív szám?\n")
+print("1. Van-e a sorozatban 100-zal osztható szám?\n")
 
 
 # 2. feladat
-print("2. Hány eleme van a sorozatnak? \n")
+print("2. Írjuk ki az utolsó 7-tel osztható szám indexét! \n")
 
 
 # 3. feladat
-print("3. Mennyi a sorozatban található legkisebb szám?\n")
+print("3. Írjuk ki az első 19-cel osztható szám indexét!\n")
 
 
 # 4. feladat
-print("4. Írjuk ki az első 33-mal osztható szám indexét!\n")
+print("4. Mennyi a sorozatban található számok átlagának a négyzete?\n")
 
 
 # 5. feladat
-print("5. Mennyi a sorozatban található számok átlagának a fele?\n")
+print("5. Igaz-e, hogy minden szám nagyobb, mint 10?\n")
 
 
 # 6. feladat
-print("6. Igaz-e, hogy minden szám pozitív?\n")
+print("6. Hány 9-cel osztható szám található a sorozatban?\n")
 
 
 # 7. feladat
-print("7. Hány páratlan szám található a sorozatban?\n")
+print("7. Írjuk ki a sorozatban található 15-tel osztható számok felét!\n")
 
 
 # 8. feladat
-print("8. Van-e a sorozatban olyan negatív szám, amelyet újabb negatív követ?\n")
-_8vince.nyolc(lista)
+print("8. Hány eleme van a sorozatnak?")
+print(_8vince.nyolc(lista)+"\n")
 
 # 9. feladat
-print("9. Írjuk ki az utolsó 19-cel osztható szám indexét!\n")
+print("9. Van-e a sorozatban olyan negatív szám, amelyet pozitív követ?\n")
 
 
 # 10. feladat
-print("10. Írjuk ki a sorozatban található 5-tel osztható számokat!\n")
+print("10. Mennyi a sorozatban található legkisebb szám fele?\n")
 
 
